@@ -14,6 +14,22 @@ nav a {
   color: #FCFCFF;
 }
 
-nav a:hover {
-  color: #84DCCF;
+.bg-primary {
+  background-color: #E4BB97 !important;
+}
+
+.bg-nf {
+  background-color: #242F40;
+}
+
+.sm_icon {
+  font-size: 30px;
+  color: #FCFCFF;
+}
+
+a:hover {
+  color: #E4BB97;
+}
+footer h4 {
+  color: #FCFCFF;
 }
