@@ -1,7 +1,7 @@
 :root {
   --color-primary-blue: #242F40;
   --color-primary-white: #FCFCFF;
-  --color-secondary: #E4BB97;
+  --color-secondary-yellow: #E4BB97;
 }
 
 body {
@@ -26,34 +26,42 @@ nav a {
 }
 
 .bg-sec {
-  background-color: var(--color-secondary);
+  background-color: var(--color-secondary-yellow);
 }
 
-.btn-primary {
+.bg-btn {
+  color: var(--color-primary-white);
   background-color: var(--color-primary-blue);
   border-color: var(--color-primary-blue);
+}
+
+.bg-btn:hover {
+  color: var(--color-primary-blue);
+  background-color: var(--color-primary-white);
+  border-color: var(--color-secondary-yellow);
+}
+
+
+
+.contact_icon {
+  font-size: 100px;
+  color: var(--color-secondary-yellow);
+}
+
+.contact_text {
+  color: var(--color-secondary-yellow);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--color-secondary-yellow);
 }
 
 .sm_icon {
   font-size: 30px;
   color: var(--color-primary-white);
 }
-
-.contact_icon {
-  font-size: 100px;
-  color: var(--color-secondary);
-}
-
-.contact_text {
-  color: var(--color-secondary);
-  font-size: 20px;
-  font-weight: bold;
-}
-
-a:hover {
-  color: var(--color-secondary);
-}
-
 footer h4 {
   color: var(--color-primary-white);
 }
