@@ -40,8 +40,14 @@ nav a {
 }
 
 .contact_icon {
-  font-size: 50px;
+  font-size: 100px;
   color: var(--color-secondary);
+}
+
+.contact_text {
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: bold;
 }
 
 a:hover {
