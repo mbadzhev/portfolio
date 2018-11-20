@@ -39,6 +39,11 @@ nav a {
   color: var(--color-primary-white);
 }
 
+.contact_icon {
+  font-size: 50px;
+  color: var(--color-secondary);
+}
+
 a:hover {
   color: var(--color-secondary);
 }
