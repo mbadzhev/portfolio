@@ -4,26 +4,33 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  --color-primary-blue: #242F40;
+  --color-primary-white: #FCFCFF;
+  --color-secondary: #E4BB97;
+}
+
 nav {
-  background-color: #242F40;
+  background-color: var(--color-primary-blue);
   font-family: 'Roboto';
   font-size: 20px;
 }
 
 nav a {
-  color: #FCFCFF;
+  color: var(--color-primary-white);
 }
 
-.bg-primary {
-  background-color: #E4BB97 !important;
+.bg-sec {
+  background-color: var(--color-secondary);
 }
 
 .bg-nf {
-  background-color: #242F40;
+  background-color: var(--color-primary-blue);
 }
 
 .btn-primary {
-  background-color: #242F40;
+  background-color: var(--color-primary-blue);
+  border-color: var(--color-primary-blue);
 }
 
 .sm_icon {
@@ -32,8 +39,8 @@ nav a {
 }
 
 a:hover {
-  color: #E4BB97;
+  color: var(--color-secondary);
 }
 footer h4 {
-  color: #FCFCFF;
+  color: var(--color-primary-white);
 }
