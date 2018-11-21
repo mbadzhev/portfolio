@@ -1,3 +1,4 @@
+/* COLOR VARIABLES */
 :root {
   --color-primary-blue: #242F40;
   --color-primary-white: #FCFCFF;
@@ -40,8 +41,6 @@ nav a {
   background-color: var(--color-primary-white);
   border-color: var(--color-secondary-yellow);
 }
-
-
 
 .contact_icon {
   font-size: 100px;
